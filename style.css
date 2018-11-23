@@ -1,0 +1,53 @@
+*{box-sizing:border-box;
+}
+.title{text-align:center;
+font-family:'Roboto';
+}
+
+.container{
+    width:60%;
+    margin: auto;
+    padding-top:22px;
+    border:5px solid orangered;
+    border-radius:30px; 
+    background: lightgray;
+}
+
+.kanjiBox{
+    position: relative;
+}
+
+.kanji{
+    font-size:48px;
+    font-family:'Kosugi Maru';
+    text-align: center;
+}
+.userInput{
+    display:flex;
+    justify-content:center;
+    padding-top:16px;
+    margin-bottom: 30px;
+}
+#check{
+    background:#fff230;
+    font-weight:bold;
+    color:#666;
+    margin-left:16px;
+    border-radius:3px;
+    border:1px solid black;
+    font-family:'Roboto';
+    font-size:16px;
+    padding:8px;
+    
+}
+#check:hover{
+    background:lightgreen;
+}
+#input{
+    font-size:16px;
+    padding:4px;
+    border:1px solid black;
+}
+ ::placeholder{
+     color:red;
+ }
